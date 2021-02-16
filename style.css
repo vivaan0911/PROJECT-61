@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background: rgb(222, 5, 214);
+    background: linear-gradient(90deg, rgba(222, 5, 214, 1) 15%, rgba(0, 40, 255, 1) 45%, rgba(140, 0, 255, 1) 80%);
+}
+
+#myHobbyIMG {
+    border-radius: 375px;
+}
+
+h3 {
+    color: #7986CB;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    color: #6200EA;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+#myHobbyPARA {
+    font-family: Lucida Handwriting;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#section1_myHobby {
+    background: rgb(5, 108, 222);
+    background: linear-gradient(90deg, rgba(5, 108, 222, 1) 15%, rgba(255, 234, 0, 1) 45%, rgba(255, 0, 233, 1) 80%);
+}
+
+#section2_myHobby {
+    background: rgb(222, 5, 5);
+    background: linear-gradient(90deg, rgba(222, 5, 5, 1) 15%, rgba(255, 166, 0, 1) 45%, rgba(27, 255, 0, 1) 80%);
+}
+
+.menu {
+    list-style: circle;
+    font-family: inherit;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    color: aqua;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.links {
+    float: left;
+    color: cornsilk;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: magneto;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: aqua;
+}
+.heading {
+        border: dashed;
+  border-width: 5px;
+  border-color: #2979FF;
+  background-color: #F50057;
+  font-size: 30px;
+  color:#A7FFEB;
+}
+#h1 {
+      color: #F44336;
+  border: dashed;
+  border-color: #1976D2;
+  border-width: 5px;
+  background-color: #64DD17;
+}
+#MFH {
+    background-color: aqua;
+}
+#MW {
+    background-color: darkmagenta;
+}
+#home {
+    background-color: cornflowerblue;
+}
+#picture {
+    transition: transform .2s;
+    border-width: 10px;
+    border: solid;
+    border-color: aqua;
+}
+#picture:hover{
+    transform: scale(0.9);
+}
+#anchor {
+    color: cornsilk !important;
+}
